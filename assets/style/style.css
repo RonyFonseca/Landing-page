@@ -18,6 +18,12 @@ body {
     background: linear-gradient(90deg, rgba(52,50,75,1) 0%, rgba(131,14,255,1) 63%, rgba(101,24,255,1) 100%);
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
 #header-cabecario {
     display: flex;
     align-items: center;
@@ -34,6 +40,10 @@ body {
     display: flex;
     flex-direction: row;
     gap: 70px;
+}
+
+#button-responsive-menu {
+    display: none;
 }
 
 .header-menu-item {
